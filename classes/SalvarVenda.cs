@@ -2,9 +2,16 @@ using System;
 using System.IO;
 
 namespace CadastroVendasPoo.classes{
-
+    /// <summary>
+    /// Salva a venda
+    /// </summary>
     public class SalvarVenda{
 
+        /// <summary>
+        /// Salva a venda em CSV
+        /// </summary>
+        /// <param name="venda">Precisa dos dados da venda</param>
+        /// <returns>Retorna se foi salvo com sucesso ou com erro</returns>
         public string Salvar(Venda venda){
 
             string msg = "";
