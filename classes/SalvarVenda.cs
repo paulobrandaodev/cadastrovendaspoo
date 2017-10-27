@@ -33,7 +33,7 @@ namespace CadastroVendasPoo.classes{
             }catch(Exception ex){
                  msg = "Erro: Falha ao gravar o arquivo: "+ ex.Message;
             }finally{
-                 arquivo.Close();
+                 arquivo.Close();                
             }
 
             return msg;

@@ -18,8 +18,9 @@ namespace CadastroVendasPoo.classes{
             StreamWriter arquivo = null;
 
             try{
+                arquivo = new StreamWriter("cadClientes.csv", true);
                 if(cpfValido(cliente.Cpf)){
-                  arquivo = new StreamWriter("cadClientes.csv", true);
+                  
                   arquivo.WriteLine(
                       cliente.Nome+";"+
                       cliente.Cpf+";"+
