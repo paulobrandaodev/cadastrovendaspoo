@@ -1,5 +1,8 @@
 using System;
 
+/// <summary>
+/// A classe Cliente possui informações sobre o cliente
+/// </summary>
 namespace CadastroVendasPoo.classes{
     public class Cliente{
         private string nome;
@@ -7,11 +10,21 @@ namespace CadastroVendasPoo.classes{
         private string cpf;
         private DateTime datacadastro;
 
+        /// <summary>
+        /// Constói o objeto Cliente
+        /// </summary>
         public Cliente()
         {
             
         }
 
+        /// <summary>
+        /// Constrói o objeto Cliente e você precisa passar todos os parâmetros
+        /// </summary>
+        /// <param name="nome">Nome do cliente em corma de texto</param>
+        /// <param name="email">Email do cliente em corma de texto</param>
+        /// <param name="cpf">CPF do cliente em corma de texto</param>
+        /// <param name="datacadastro">Passe a data de cadastro como DateTime</param>
         public Cliente(string nome, string email, string cpf, DateTime datacadastro)
         {
             this.nome = nome;
