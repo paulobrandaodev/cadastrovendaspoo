@@ -42,7 +42,7 @@ namespace CadastroVendasPoo.classes{
             this.id        = id;
             this.datavenda = datavenda;
         }
-
+        
         
 
     }
