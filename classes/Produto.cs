@@ -1,10 +1,10 @@
 using System;
 
 /// <summary>
-/// A classe Cliente possui informações sobre o cliente
+/// A classe Produto possui informações sobre o produto
 /// </summary>
 namespace CadastroVendasPoo.classes{
-    public class Venda{
+    public class Produto{
         private int id;
         private string nomedoproduto;
         private string descricao;
@@ -13,7 +13,7 @@ namespace CadastroVendasPoo.classes{
         /// <summary>
         /// Constói o objeto Produto
         /// </summary>
-        public Venda()
+        public Produto()
         {
             
         }
@@ -25,7 +25,7 @@ namespace CadastroVendasPoo.classes{
         /// <param name="nomedoproduto">Nome em texto</param>
         /// <param name="descricao">Descrição em texto</param>
         /// <param name="preco">Preço em formato USA</param>
-         public Venda(int id, string nomedoproduto, string descricao, double preco)
+         public Produto(int id, string nomedoproduto, string descricao, double preco)
         {
             this.id = id;
             this.nomedoproduto = nomedoproduto;
